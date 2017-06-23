@@ -91,3 +91,5 @@ hs_err_pid*
 PaintChatClient/.idea/workspace.xml
 *.xml
 PaintChatClient/.idea/PaintChatClient.iml
+
+PaintChatServer/PaintChatServer.iml
