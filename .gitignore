@@ -16,7 +16,8 @@
 *.ear
 *.zip
 *.tar.gz
-*.rar	
+*.rar
+*.class
  
 # virtual machine crash logs
 hs_err_pid*
