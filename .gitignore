@@ -93,3 +93,4 @@ PaintChatClient/.idea/workspace.xml
 PaintChatClient/.idea/PaintChatClient.iml
 
 PaintChatServer/PaintChatServer.iml
+*.iml
