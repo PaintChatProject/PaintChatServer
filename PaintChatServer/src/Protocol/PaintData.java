@@ -1,13 +1,32 @@
+import java.awt.*;
 import java.io.Serializable;
 
 public class PaintData implements Serializable {
-    int y;
     int x;
-    int w;
+    int y;
+    Color color;
+    int size;
 
-    public PaintData(int y, int x, int w){
-        this.y=y;
+    public PaintData(int x, int y, Color color, int size){
         this.x=x;
-        this.w=w;
+        this.y=y;
+        this.color=color;
+        this.size=size;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public int getSize() {
+        return size;
     }
 }
