@@ -27,6 +27,7 @@ public class ReceiveThread extends Thread {
     public void SendObject(Object object){
         try {
             for (int i = 0; i < UserList.list.size(); i++) {
+                //if(UserList.list.get(i).equals(socket)) continue;
                 ObjectOutputStream objectOutputStream=new ObjectOutputStream(UserList.list.get(i).getOutputStream());
                 objectOutputStream.writeObject(object);  // ChatData Object 전송;
             }
